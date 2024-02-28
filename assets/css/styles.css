@@ -446,8 +446,28 @@ font-size: 1.5rem;
   justify-self: center;
 }
 /*=============== FOOTER ===============*/
-
-
+.footer{
+  background-color: var(--white-color);
+}
+.footer__bg{
+  background-color: var(--first-color-alt);
+  border-radius: var(--border-section);
+}
+.footer__container{
+  padding-block: 4rem 7rem;
+  row-gap: 4.5rem;
+}
+.footer__data{
+  text-align: center;
+  row-gap: 4.5rem;
+}
+.footer__logo,
+.footer__title,
+.footer__description,
+.footer__socials-link,
+.footer__input{
+  color: var(--white-color);
+}
 /*=============== SCROLL BAR ===============*/
 
 
