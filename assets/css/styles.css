@@ -316,8 +316,13 @@ font-size: 1.5rem;
   line-height: 120%;
 }
 /*=============== ABOUT ===============*/
-
-
+.about{
+  background-color: var(--white-color);
+}
+.about__bg{
+  background-color: var(--white-color);
+  border-radius: var(--border-section);
+}
 /*=============== STEPS ===============*/
 
 
