@@ -262,7 +262,7 @@ font-size: 1.5rem;
 }
 /*=============== PRODUCTS ===============*/
 .products{
-  background-color: var(--first-color);
+  background-color: var(--first-color-alt);
 }
 .products__bg{
   background-color: var(--first-color);
@@ -282,7 +282,7 @@ font-size: 1.5rem;
   font-weight: var(--font-medium);
   box-shadow: 0 8px 24px hsla(12, 32%, 8%, .5);
   margin-bottom: 3rem;
-  margin-top: 4rem;
+  /* margin-top: 3rem; */
   transition: box-shadow .3s transform .3s;
 }
 .products__button i {
@@ -317,11 +317,22 @@ font-size: 1.5rem;
 }
 /*=============== ABOUT ===============*/
 .about{
-  background-color: var(--white-color);
+  background-color: var(--first-color);
 }
 .about__bg{
   background-color: var(--white-color);
   border-radius: var(--border-section);
+}
+.about__container{
+  row-gap: 3.5rem;
+}
+.about__data{
+  text-align: center;
+}
+.about__img{
+  width: 320px;
+  border-radius: 1rem;
+  justify-self: center;
 }
 /*=============== STEPS ===============*/
 
