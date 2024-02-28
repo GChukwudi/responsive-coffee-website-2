@@ -468,6 +468,35 @@ font-size: 1.5rem;
 .footer__input{
   color: var(--white-color);
 }
+.footer__logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--h2-font-size);
+  font-family: var(--second-font);
+  margin-bottom: 1rem;
+}
+.footer__logo img{
+  width: 28px;
+}
+.footer__title{
+  font-size: var(--big-font-size);
+  font-family: var(--second-font);
+  font-weight: var(--font-regular);
+  line-height: 120%;
+}
+.footer__form{
+  row-gap: 1rem;
+}
+.footer__input,
+.footer__button{
+  border: none;
+  outline: none;
+  font-family: var(--body-font);
+}
+.footer__input{
+  
+}
 /*=============== SCROLL BAR ===============*/
 
 
