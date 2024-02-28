@@ -395,6 +395,14 @@ font-size: 1.5rem;
   font-size: var(--h1-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--first-color);
+  outline: 10px solid var(--first-color);
+}
+.steps__card-move,
+.steps__card-move .steps__circle{
+  margin-left: auto;
+}
+.steps__card-move .steps__description{
+  text-align: right;
 }
 /*=============== TESTIMONIAL ===============*/
 
