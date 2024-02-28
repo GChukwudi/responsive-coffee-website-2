@@ -355,7 +355,8 @@ font-size: 1.5rem;
 }
 .steps__content{
   display: grid;
-  row-gap: 3.5rem;
+  row-gap: 4rem;
+  position: relative;
 }
 .steps__card{
   width: 250px;
@@ -403,6 +404,13 @@ font-size: 1.5rem;
 }
 .steps__card-move .steps__description{
   text-align: right;
+}
+.steps__border{
+  position: relative;
+  left: 3rem;
+  right: 0;
+  top: 7.5rem;
+  margin: 0 auto;
 }
 /*=============== TESTIMONIAL ===============*/
 
