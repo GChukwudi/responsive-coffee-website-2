@@ -464,7 +464,7 @@ font-size: 1.5rem;
 .footer__logo,
 .footer__title,
 .footer__description,
-.footer__socials-link,
+.footer__social-link,
 .footer__input{
   color: var(--white-color);
 }
@@ -517,6 +517,18 @@ font-size: 1.5rem;
 }
 .footer__privacy:hover{
   text-decoration: underline;
+}
+.footer__content{
+  row-gap: 2rem;
+}
+.footer__social{
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+.footer__social-link{
+  font-size: 1.2s5rem;
+  transition: color .3s;
 }
 /*=============== SCROLL BAR ===============*/
 
