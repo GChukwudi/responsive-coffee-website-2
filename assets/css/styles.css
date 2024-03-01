@@ -530,6 +530,14 @@ font-size: 1.5rem;
   font-size: 1.2s5rem;
   transition: color .3s;
 }
+.footer__social-link:hover{
+  color: var(--second-color);
+}
+.footer__copy{
+  color: var(--text-color-light);
+  font-size: var(--smaller-font-size);
+  text-align: center;
+}
 /*=============== SCROLL BAR ===============*/
 
 
