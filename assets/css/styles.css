@@ -448,6 +448,7 @@ font-size: 1.5rem;
 /*=============== FOOTER ===============*/
 .footer{
   background-color: var(--white-color);
+  position: relative;
 }
 .footer__bg{
   background-color: var(--first-color-alt);
@@ -456,6 +457,7 @@ font-size: 1.5rem;
 .footer__container{
   padding-block: 4rem 7rem;
   row-gap: 4.5rem;
+  position: relative;
 }
 .footer__data{
   text-align: center;
@@ -537,6 +539,16 @@ font-size: 1.5rem;
   color: var(--text-color-light);
   font-size: var(--smaller-font-size);
   text-align: center;
+}
+.footer__bg-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: -172px;
+  /* opacity: 0.3; */
 }
 /*=============== SCROLL BAR ===============*/
 
