@@ -582,7 +582,7 @@ font-size: 1.5rem;
   transform: translateY(-.25rem);
 }
 /* Show Scroll Up */
-.scroll-show {
+.show-scroll{
   bottom: 7rem;
 }
 
