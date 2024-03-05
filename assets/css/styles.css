@@ -548,11 +548,19 @@ font-size: 1.5rem;
   height: 100%;
   object-fit: cover;
   object-position: -172px;
-  /* opacity: 0.3; */
+  opacity: 0.3;
 }
 /*=============== SCROLL BAR ===============*/
-
-
+::-webkit-scrollbar{
+  width: 0.6rem;
+  background-color: hsl(12, 8%, 65%);
+}
+::-webkit-scrollbar-thumb{
+  background-color: hsl(12, 8%, 45%);
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(12, 8%, 35%);
+}
 /*=============== SCROLL UP ===============*/
 
 
