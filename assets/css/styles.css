@@ -582,7 +582,9 @@ font-size: 1.5rem;
   transform: translateY(-.25rem);
 }
 /* Show Scroll Up */
-
+.scroll-show {
+  bottom: 7rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
