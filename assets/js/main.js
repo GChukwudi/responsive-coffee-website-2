@@ -39,6 +39,6 @@ const sr = ScrollReveal({
     duration: 2500,
     delay: 400,
 })
-sr.reveal(`.home__data`)
+sr.reveal(`.home__data, .products__data`)
 sr.reveal(`.home__img`, {origin: 'bottom'})
-sr.reveal(`.home__img`, {origin: 'bottom'})
+sr.reveal(`.products__card`, {interval: 100})
