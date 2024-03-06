@@ -731,4 +731,12 @@ img {
     flex-direction: column;
     margin-top: 7rem;
   }
+  .steps__card-move .steps__circle{
+    margin-left: initial;
+  }
+  .steps__card-move .steps__description{
+    order: -1;
+    text-align: initial;
+    margin-bottom: 3rem;
+  }
 }
