@@ -718,5 +718,9 @@ img {
   .about__data .section__title{
     text-align: initial;
   }
-  
+  .steps__content {
+    grid-template-columns: repeat(3, max-content);
+    column-gap: 6.5rem;
+    padding-top: 3rem;
+  }
 }
