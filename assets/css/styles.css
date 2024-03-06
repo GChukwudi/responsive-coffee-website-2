@@ -723,4 +723,12 @@ img {
     column-gap: 6.5rem;
     padding-top: 3rem;
   }
+  .steps__card{
+    width: 272px;
+  }
+  .steps__card-move {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+  }
 }
