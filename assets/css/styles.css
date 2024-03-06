@@ -840,4 +840,16 @@ img {
   .products__container{
     column-gap: 9rem;
   }
+  .about__container{
+    column-gap: 6.5rem;
+  }
+  .about__img{
+    width: 550px;
+  }
+  .testimonial__container{
+    column-gap: 2rem;
+  }
+  .testimonial__img{
+    width: 550px;
+  }
 }
