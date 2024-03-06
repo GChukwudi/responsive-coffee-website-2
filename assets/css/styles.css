@@ -785,4 +785,22 @@ img {
     row-gap: 6rem;
     padding-block: 6rem 3rem;
   }
+  .footer__data{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+    text-align: initial;
+  }
+  .footer__logo{
+    margin-bottom: 1.5rem;
+  }
+  .footer__logo img {
+    width: 32px;
+  }
+  .footer__title{
+    font-size: var(--h1-font-size);
+  }
+  .footer__form{
+    width: 360px;
+    row-gap: 1.5rem;
+  }
 }
