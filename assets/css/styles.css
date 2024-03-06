@@ -675,4 +675,12 @@ img {
     align-items: center;
     padding-top: 3rem;
   }
+  .home__img {
+    order: -1;
+    width: 450px;
+  }
+  .home__data {
+    text-align: initial;
+  }
+  .home__title
 }
