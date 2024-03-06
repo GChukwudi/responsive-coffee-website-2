@@ -795,9 +795,11 @@ img {
   }
   .footer__logo img {
     width: 32px;
+    margin-left: 100px;
   }
   .footer__title{
     font-size: var(--h1-font-size);
+    margin-left: 100px;
   }
   .footer__form{
     width: 360px;
@@ -814,5 +816,17 @@ img {
   }
   .footer__bg-img{
     object-position: top;
+  }
+  .scrollup{
+    right: 3rem;
+  }
+  .show-scroll{
+    bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1152px){
+  .container{
+    margin-inline: auto;
   }
 }
