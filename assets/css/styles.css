@@ -812,4 +812,7 @@ img {
   .footer__social-link{
     font-size: 1.5rem;
   }
+  .footer__bg-img{
+    object-position: top;
+  }
 }
