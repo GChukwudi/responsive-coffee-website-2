@@ -706,4 +706,17 @@ img {
   .products__price{
     font-size: var(--h3-font-size);
   }
+  .about__container{
+    grid-template-columns: max-content 465px;
+    align-items: center;
+  }
+  .about__img{
+    order: -1;
+    width: 450px;
+  }
+  .about__data,
+  .about__data .section__title{
+    text-align: initial;
+  }
+  
 }
