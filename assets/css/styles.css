@@ -830,3 +830,14 @@ img {
     margin-inline: auto;
   }
 }
+@media screen and (min-width: 1248px){
+  .home__container{
+    column-gap: 4.5rem;
+  }
+  .home__img{
+    width: 550px;
+  }
+  .products__container{
+    column-gap: 9rem;
+  }
+}
