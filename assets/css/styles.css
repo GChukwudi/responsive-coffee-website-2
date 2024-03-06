@@ -684,9 +684,16 @@ img {
   }
   .home__title{
     /* width: 120px; */
-    
+    right: 100px;
   }
   .home__description{
     margin-bottom: 3rem;
+  }
+  .home__title img{
+    width: 120px;
+  }
+  .products__container {
+    grid-template-columns: 418px 535px;
+    align-items: center;
   }
 }
