@@ -185,9 +185,9 @@ img {
   background: linear-gradient(180deg,
               var(39, 62%, 75%) 0%,
               var(39, 62%, 45%) 100%);
-color: transparent;
--webkit-background-clip: text;
-font-size: 1.5rem;
+  color: transparent;
+  /* -webkit-background-clip: text; */
+  font-size: 1.5rem;
 }
 .nav__link:hover{
   color: var(--second-color);
