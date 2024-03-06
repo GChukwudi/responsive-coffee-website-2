@@ -682,10 +682,10 @@ img {
   .home__data {
     text-align: left;
   }
-  /* .home__title img {
+  .home__title img {
     width: 120px;
   }
   .home__description{
     margin-bottom: 3rem;
   }
-} */
+}
