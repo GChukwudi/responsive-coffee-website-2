@@ -39,7 +39,8 @@ const sr = ScrollReveal({
     duration: 2500,
     delay: 400,
 })
-sr.reveal(`.home__data, .products__data, .steps__content`)
+sr.reveal(`.home__data, .products__data, .steps__content,
+            .footer__container`)
 sr.reveal(`.home__img`, {origin: 'bottom'})
 sr.reveal(`.products__card`, {interval: 100})
 sr.reveal(`.about__img, .testimonial__img`, {origin: 'right'})
