@@ -723,6 +723,7 @@ img {
     column-gap: 6.5rem;
     padding-top: 3rem;
     /* margin: auto; */
+    right: -70px;
   }
   .steps__card{
     width: 272px;
@@ -758,5 +759,30 @@ img {
     /* width: 200px; */
     left: 0;
     top: -9rem;
+  }
+  .steps__bg-img{
+    top: 0;
+    height: 100%;
+    object-position: initial;
+  }
+  .testimonial__container{
+    grid-template-columns: 510px max-content;
+    align-items: center;
+  }
+  .testimonial__img{
+    width: 450px;
+  }
+  .testimonial__data,
+  .testimonial__data .section__title{
+    text-align: initial;
+  }
+  .testimonial__data .section__title{
+    margin-bottom: 3rem;
+  }
+  .footer__container {
+    grid-template-columns: initial;
+    justify-content: initial;
+    row-gap: 6rem;
+    padding-block: 6rem 3rem;
   }
 }
