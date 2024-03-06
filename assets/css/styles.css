@@ -667,4 +667,8 @@ img {
   .nav__link{
     font-size: var(--normal-font-size);
   }
+  .nav__link i {
+    display: none;
+  }
+  
 }
