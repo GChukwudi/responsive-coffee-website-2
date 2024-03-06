@@ -670,5 +670,9 @@ img {
   .nav__link i {
     display: none;
   }
-  
+  .home__container {
+    grid-template-columns: max-content 440px;
+    align-items: center;
+    padding-top: 3rem;
+  }
 }
