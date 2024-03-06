@@ -722,6 +722,7 @@ img {
     grid-template-columns: repeat(3, max-content);
     column-gap: 6.5rem;
     padding-top: 3rem;
+    margin: 0 auto;
   }
   .steps__card{
     width: 272px;
