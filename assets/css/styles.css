@@ -201,7 +201,9 @@ font-size: 1.5rem;
   opacity: 0;
 }
 /* Active link */
-
+.active-link {
+  color: var(--second-color);
+}
 
 /*=============== HOME ===============*/
 .home {
@@ -585,11 +587,49 @@ font-size: 1.5rem;
 .show-scroll{
   bottom: 7rem;
 }
-
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-
-
+@media screen and (max-width: 300px) {
+  .container {
+    margin-inline: 1rem;
+  }
+  .nav__menu{
+    padding-inline: 3rem;
+  }
+  .home__title{
+    width: 220px;
+    text-align: center;
+  }
+  .home__title img{
+    top: 1rem;
+  }
+  .products__content {
+    grid-template-columns: 1fr;
+  }
+  .steps__bg h2,
+  .testimonial__bg h2{
+    font-size: 1.25rem;
+  }
+  .steps__content {
+    row-gap: 5rem;
+  }
+  .steps__content p {
+    width: 200px;
+  }
+  .steps__card {
+    width: initial;
+  }
+  .steps__border {
+    left: 0;
+    top: 5.5rem;
+  }
+}
+@media screen and (min-width: 400px) {
+  .steps__content{
+    grid-template-columns: 325px;
+    justify-content: center;
+  }
+}
 /* For medium devices */
 
 
