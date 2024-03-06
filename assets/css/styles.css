@@ -185,7 +185,7 @@ img {
   background: linear-gradient(180deg,
               var(39, 62%, 75%) 0%,
               var(39, 62%, 45%) 100%);
-  color: transparent;
+  /* color: transparent; */
   /* -webkit-background-clip: text; */
   font-size: 1.5rem;
 }
@@ -654,5 +654,17 @@ img {
   .nav{
     height: calc(var(--header-height) + 2rem);
     justify-content: space-between;
+  }
+  .nav__logo img {
+    width: 32px;
+  }
+  .nav__menu{
+    width: initial;
+  }
+  .nav__list{
+    column-gap: 4.5rem;
+  }
+  .nav__link{
+    font-size: var(--normal-font-size);
   }
 }
